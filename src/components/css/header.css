@@ -1,0 +1,124 @@
+* {
+  width: 100%;
+  box-sizing: border-box;
+  color: #06283D;
+  font-family: "Poppins";
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #06283D;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background-color: rgb(223, 246, 255);
+  z-index: 10;
+  position: fixed;
+  top: 0;
+}
+
+.header-left {
+  width: 20%;
+}
+.header-left h1 {
+  font-weight: bold;
+}
+
+.header-right ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  float: right;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.header-right ul li {
+  display: flex;
+  flex-direction: row;
+  margin: 0 10px 0 10px;
+}
+.header-right ul li a {
+  border-radius: 24px;
+  padding: 10px 20px;
+  transition: all 0.5s;
+  color: #06283D;
+  margin: 0 auto;
+}
+.header-right ul li a:hover {
+  color: #47B5FF;
+  background-color: #06283D;
+}
+
+a {
+  text-decoration: none;
+}
+@media all and (max-width: 1000px) {
+  .header-left h1 {
+    margin-left: 10px;
+    width: 100px;
+  }
+  .header-right ul {
+    width: 100%;
+  }
+ 
+}
+@media all and (max-width: 640px) {
+  .menu-toggle {
+    display: flex;
+    width: 25%;
+    float: right;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .menu-toggle i {
+    display: flex;
+    width: 25px;
+  }
+  .header-left h1 {
+    margin-left: 10px;
+    width: 100px;
+  }
+  .header-right ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: start;
+    z-index: -1;
+    width: 80%;
+    color: #fff;
+    background-color: #06283D;
+    transform: translateX(100%);
+    transition: all 1s;
+    padding-top: 50px;
+    opacity: 0;
+  }
+  .header-right ul li {
+    margin-top: 10px;
+    padding-top: 0;
+  }
+  .header-right ul.slide {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .active {
+    background-color: #06283D;
+    color: #fff;
+  }
+  .header ul li a {
+    color: #fff;
+    font-size: 25px;
+  }
+ 
+  .heading a {
+    width: 60%;
+  }
+  
+}/*# sourceMappingURL=index.css.map */

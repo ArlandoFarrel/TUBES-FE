@@ -1,0 +1,167 @@
+$color_1: #06283D;
+$color_2: #47B5FF;
+$color_3: #256D85;
+$color_4: white;
+$color_5: rgb(0, 4, 65, 0.7);
+$color_6: #fff;
+$font-family_1: 'Poppins';
+$background-color_1: #06283D;
+$background-color_2: rgba(223, 246, 255);
+$background-color_3: #DFF6FF;
+$background-color_4: #47B5FF;
+
+* {
+	width: 100%;
+	box-sizing: border-box;
+	color: $color_1;
+	font-family: $font-family_1;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: $background-color_1;
+}
+.container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+}
+.active {
+	color: $color_2 !important;
+	background-color: $background-color_1;
+}
+
+ul {
+	list-style: none;
+}
+i {
+	color: $color_3;
+}
+
+.box {
+	.col-4 {
+		cursor: pointer;
+		height: 600px;
+		transition: all 0.8s;
+		color: $color_4;
+		box-sizing: border-box;
+		height: 600px;
+		padding: 60px;
+		text-align: center;
+		transition: all 0.8s;
+		width: 1000px;
+		&:hover {
+			background-size: cover;
+			box-shadow: 0px 15px 25px rgba(46, 31, 255, 0.7);
+			color: $color_5;
+			background-color: $background-color_4;
+			background-size: cover;
+			box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+		}
+		h5 {
+			font-size: large;
+			margin: 20px 0;
+			color: $color_4;
+			font-size: large;
+			margin: 20px 0;
+		}
+		img {
+			width: 170px;
+		}
+		p {
+			font-size: large;
+			margin: 20px 0;
+			color: $color_4;
+		}
+	}
+	
+	display: flex;
+	margin-bottom: 120px;
+	color: $color_4;
+}
+.menu-toggle {
+	display: none;
+	flex-direction: column;
+	height: 20px;
+	span {
+		display: block;
+		width: 20px;
+		height: 3px;
+		background-color: $background-color_1;
+		border-radius: 3px;
+	}
+}
+.main {
+	height: 100rem;
+}
+
+.service  {
+	h1 {
+		text-align: center;
+		color: $color_6;
+	}
+	margin-top: 100px;
+}
+@media all and (max-width: 1000px) {
+	.header-left {
+		h1 {
+			margin-left: 10px;
+			width: 100px;
+		}
+	}
+	
+	.box {
+		.col-4 {
+			margin: 10px auto;
+			width: 80%;
+			flex: 1 300px;
+			img {
+				width: 60%;
+			}
+		}
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.swiper-slide {
+		img {
+			height: 70%;
+			width: 400px;
+			margin: 10% 25%;
+		}
+	}
+}
+@media all and (max-width: 640px) {
+	.box {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.col-4 {
+			width: 100%;
+			margin: 80px 0;
+			img {
+				width: 90%;
+			}
+		}
+	}
+	.menu-toggle {
+		display: flex;
+		width: 25%;
+		float: right;
+		align-items: center;
+		margin-bottom: 10px;
+		cursor: pointer;
+		i {
+			display: flex;
+			width: 25px;
+		}
+	}
+	
+	.active {
+		background-color: $background-color_1;
+		color: $color_6;
+	}
+
+}

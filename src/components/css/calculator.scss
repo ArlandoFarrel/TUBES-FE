@@ -1,0 +1,105 @@
+$color_1: var(--txt-color);
+$color_2: var(--txt-white);
+$color_3: var(--calc-btn-color);
+$color_4: var(--calc-res-color);
+$font-family_1: "Montserrat", sans-serif;
+$background-color_1: var(--calc-bg);
+$background-color_2: #DFF6FF;
+
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap";
+.all {
+	font-family: $font-family_1;
+	font-weight: 400;
+	line-height: 1.5;
+	color: $color_1;
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+}
+.calculator {
+	padding: 20px;
+	height: 700px;
+	width: 400px;
+	overflow: hidden;
+	border-radius: 20px;
+	background-color: $background-color_1;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.calculator__btns {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+	button {
+		border: 0;
+		outline: 0;
+		border-radius: 40px;
+		font-size: 1.25rem;
+		font-weight: 500;
+		background-color: $background-color_2;
+		color: $color_1;
+		&:last-child {
+			border-radius: 50%;
+			color: $color_2;
+			background-image: linear-gradient(312deg, #cd6e36, #d400ff);
+		}
+	}
+	.btn__op {
+		color: $color_3;
+	}
+}
+.calculator__result {
+	position: relative;
+	margin-bottom: 20px;
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.calculator__result__exp {
+	font-size: 3.5rem;
+	line-height: 1;
+	transform-origin: right bottom;
+	transition: transform 0.3s ease;
+	color: $color_4;
+	&:last-child {
+		position: absolute;
+		right: 0;
+	}
+	span {
+		display: inline-block;
+		overflow: hidden;
+		transition: width 0.3s ease;
+	}
+}
+&:root {
+	--body-bg: #FFFF;
+	--txt-color: #000000;
+	--txt-white: #fff;
+	--calc-res-color: #2f2d2f;
+	--calc-btn-color: #d400ff;
+	--calc-bg: #DFF6FF;
+}
+.dark {
+	--txt-color: #06283D;
+	--calc-res-color: #DFF6FF;
+	--calc-bg: #06283D;
+}
+button {
+	font-family: $font-family_1;
+	cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+	body {
+		display: unset;
+		padding-top: 0;
+	}
+	.calculator {
+		width: 100%;
+		height: 100vh;
+		border-radius: 0;
+	}
+}
