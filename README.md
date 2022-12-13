@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# TUBES TEFA WEB PROFILE 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Website profile kelompok 3 TEFA Malang dengan beberapa fitur dan rincian sebagai berikut :
 
-## Available Scripts
+## Pages 
 
-In the project directory, you can run:
+- Halaman utama
+- Halaman daftar anggota
+- Halaman video profile
+- Halaman detail anggota kelompok
+- Halaman kalkulator
 
-### `npm start`
+## Fitur
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Responsive
+- Navbar
+- Footer
+- Carousel dengan timer & panah 
+- Kalkulator dengan mode gelap & terang
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## teknologi
+teknologi & bahasa yang kami gunakan adalah sebagai berikut :
 
-### `npm test`
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Dokumentasi
 
-### `npm run build`
+Halaman Home
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Halaman Our Team
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Halaman Video
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Halaman Detail
 
-### `npm run eject`
+Halaman Kalkulator
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributor
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [@ArlandoFarrel](https://www.github.com/ArlandoFarrel) Arlando Muhammad Farrel
+- [@zalfaa22](https://www.github.com/zalfaa22) Fadhila Zalfa Alisya
+- [@griseldapc](https://github.com/griseldapc) Griselda Putri Cahyaningtyas 
+- [@fdilaa](https://www.github.com/fdilaa) Khusnul Faddila 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
