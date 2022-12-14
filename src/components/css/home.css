@@ -153,12 +153,12 @@ i {
   }
   .wrapper h1 {
     text-align: left;
-    width: 100%;
+    max-width: 80%;
     margin-bottom: 5px;
   }
   .wrapper p {
     text-align: left;
-    width: 100%;
+    max-width: 80%;
     margin-bottom: 30px;
     margin-top: 10px;
   }

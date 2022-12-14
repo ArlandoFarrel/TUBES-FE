@@ -12,7 +12,7 @@ function Index() {
             <div className="container">
                 <div className="video">
                     <video controls>
-                        <source src="../Assets/ada.mp4" type="video/mp4"/>
+                        <source src="/assets/ada.mp4" type="video/mp4"/>
                         Your browser does not support the video tag.
                     </video>
                 </div>
