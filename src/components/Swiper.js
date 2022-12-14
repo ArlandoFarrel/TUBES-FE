@@ -59,10 +59,10 @@ export default () => {
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
     >
-      <SwiperSlide><img src="/assets/img/farrel.jpg" alt=""/></SwiperSlide>
-      <SwiperSlide><img src="/assets/img/zalfa.jpg" alt=""/></SwiperSlide>
-      <SwiperSlide><img src="/assets/img/grisel.jpg" alt=""/></SwiperSlide>
-      <SwiperSlide><img src="/assets/img/dila.jpg" alt=""/></SwiperSlide>
+      <SwiperSlide><img src="/assets/img/farrel.JPG" alt=""/></SwiperSlide>
+      <SwiperSlide><img src="/assets/img/zalfa.JPG" alt=""/></SwiperSlide>
+      <SwiperSlide><img src="/assets/img/grisel.JPG" alt=""/></SwiperSlide>
+      <SwiperSlide><img src="/assets/img/dila.JPG" alt=""/></SwiperSlide>
       ...
     </Swiper>
   );
