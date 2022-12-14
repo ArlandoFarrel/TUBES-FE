@@ -195,7 +195,7 @@ function Tabs() {
                     Bermain video game merupakan kegiatan yang menyenangkan. Dengan bermain game kita dapat sedikit melepaskan penat</p>
                   </div>
                   <div className="bio-photo">
-                    <img src="ASSETS/img/fotof.jpeg" alt="" />
+                    <img src="/ASSETS/img/fotof.jpeg" alt="" />
                   </div>
                 </div>
 
@@ -231,7 +231,7 @@ function Tabs() {
                     Seni khususnya melukis merupakan kegiatan yang menyenangkan. Dengan melukis dia dapat menuangkan seluruh ide dan kreativitas yang di miliki.</p>
                   </div>
                   <div className="bio-photo">
-                    <img src="ASSETS/img/zalfadetail.jpg" alt="" />
+                    <img src="/ASSETS/img/zalfadetail.jpg" alt="" />
                   </div>
                 </div>
 
@@ -266,7 +266,7 @@ function Tabs() {
                     Menulis merupakan kegiatan yang menyenangkan. Dengan menulis kita bisa mengapresiasikan semua yang kita rasakan melalui sebuah tulisan.</p>
                   </div>
                   <div className="bio-photo">
-                    <img src="ASSETS/img/icen.jpg" alt="" />
+                    <img src="/ASSETS/img/icen.jpg" alt="" />
                   </div>
                 </div>
 
@@ -276,7 +276,7 @@ function Tabs() {
                     width={300}
                     height={200}
                     style={{ "border": "0" }}
-                    title="iframe Zalfa"
+                    title="iframe Grisel"
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"></iframe>
@@ -300,7 +300,7 @@ function Tabs() {
                     Multimedia merupakan kegiatan yang sangat menyenangkan. Di bidang multimedia ini, dila dapat mengasah semua potensi dan bakat yang dila miliki khususnya dalam bidang fotografi.</p>
                   </div>
                   <div className="bio-photo">
-                    <img src="ASSETS/img/diladetail.jpg" alt="" />
+                    <img src="/ASSETS/img/diladetail.jpg" alt="" />
                   </div>
                 </div>
 
@@ -310,7 +310,7 @@ function Tabs() {
                     width={300}
                     height={200}
                     style={{ "border": "0" }}
-                    title="iframe Zalfa"
+                    title="iframe Dila"
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"></iframe>

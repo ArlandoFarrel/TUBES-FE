@@ -16,7 +16,7 @@ function Ourteam() {
             <div className="box">
             
             <div className="col-4"><Link to="/Detail">
-                  <img src="ASSETS/img/farrel.JPG" />
+                  <img src="/ASSETS/img/farrel.JPG" />
                   <h5>Arlando Muhammad Farrel</h5>
                   <p>Date of birth : 7 March 2006
                     <br /> Age : 16th 
@@ -28,7 +28,7 @@ function Ourteam() {
               </div>
               <div className="col-4">
               <Link to="/Detail">
-                  <img src="ASSETS/img/zalfa.JPG" />
+                  <img src="/ASSETS/img/zalfa.JPG" />
                   <h5>Fadhila Zalfa Alisya</h5>
                   <p>Date of birth : 22 August 2005 
                     <br /> Age : 17th 
@@ -40,7 +40,7 @@ function Ourteam() {
               </div>
               <div className="col-4">
               <Link to="/Detail">
-                  <img src="ASSETS/img/grisel.JPG" />
+                  <img src="/ASSETS/img/grisel.JPG" />
                   <h5>Griselda Putri Cahyaningtyas</h5>
                   <p>Date of birth : 7 August 2005 
                     <br /> Age : 17th 
@@ -52,7 +52,7 @@ function Ourteam() {
               </div>
               <div className="col-4">
               <Link to="/Detail">
-                  <img src="ASSETS/img/dila.JPG" />
+                  <img src="/ASSETS/img/dila.JPG" />
                   <h5>Khusnul <br /> Faddila</h5>
                   <p>Date of birth : 11 August 2005 
                     <br /> Age : 17th 
