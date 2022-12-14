@@ -87,7 +87,7 @@ a {
 .heading h2 {
   color: #ffffff;
 }
-.heading a {
+.heading span {
   background: #256d85;
   padding: 10px 18px;
   text-decoration: none;
@@ -99,8 +99,10 @@ a {
   border-radius: 10px;
   width: 15%;
   transition: 0.5s;
+  text-align: center;
+  cursor: pointer;
 }
-.heading a:hover {
+.heading span:hover {
   background: #47b5ff;
   color: #06283d;
 }

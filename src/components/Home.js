@@ -28,7 +28,7 @@ function Home() {
                 <div className="heading">
                     <h2>Ingin tau lebih dalam tentang kami?</h2>
                     <h3>Learn to Code, Learn to be Creative</h3>
-                    <li><Link to="/Ourteam">Our Team</Link></li>
+                    <span><Link to="/Ourteam">Our Team</Link></span>
                 </div>
             </div>
         </div>
