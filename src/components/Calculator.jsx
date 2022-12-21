@@ -61,7 +61,12 @@ function App() {
 
       setExpression("");
     }
-
+    if (item.action === BTN_ACTIONS.PERCENT) {
+      let output = Number(expression) / 100;
+      console.log(output);
+      setExpression(output)
+      expDiv.innerHTML = output;
+  }
     if (item.action === BTN_ACTIONS.DEL) {
       let output = expression.split("");
       output.pop();
@@ -132,7 +137,7 @@ function App() {
 
   return (
     <div>
-     <header>
+     <header>Ourteam
       <center>
         <section className="header">
           <div className="header-left">
