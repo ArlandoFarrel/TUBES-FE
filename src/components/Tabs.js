@@ -23,7 +23,7 @@
 //                 <p>Bermain video game merupakan kegiatan yang menyenangkan. Dengan bermain game kita dapat sedikit melepaskan penat</p>
 //               </div>
 //               <div className="bio-photo">
-//                 <img src="ASSETS/img/fotof.jpeg" alt="" />
+//                 <img src="assets/img/fotof.jpeg" alt="" />
 //               </div>
 //             </div>
 
@@ -266,7 +266,7 @@ function Tabs() {
                     Menulis merupakan kegiatan yang menyenangkan. Dengan menulis kita bisa mengapresiasikan semua yang kita rasakan melalui sebuah tulisan.</p>
                   </div>
                   <div className="bio-photo">
-                    <img src="/ASSETS/img/icen.jpg" alt="" />
+                    <img src="/assets/img/icen.jpg" alt="" />
                   </div>
                 </div>
 

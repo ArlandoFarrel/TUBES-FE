@@ -67,12 +67,8 @@ a {
   color: #dff6ff;
   padding-bottom: 80px;
 }
-.message-wrapper h2, h3 {
+.message-wrapper h2 {
   padding-top: 85px;
-  text-align: center;
-}
-.message-wrapper li {
-  text-align: center;
 }
 
 .heading {
@@ -87,7 +83,7 @@ a {
 .heading h2 {
   color: #ffffff;
 }
-.heading span {
+.heading a {
   background: #256d85;
   padding: 10px 18px;
   text-decoration: none;
@@ -99,10 +95,8 @@ a {
   border-radius: 10px;
   width: 15%;
   transition: 0.5s;
-  text-align: center;
-  cursor: pointer;
 }
-.heading span:hover {
+.heading a:hover {
   background: #47b5ff;
   color: #06283d;
 }
@@ -153,12 +147,12 @@ i {
   }
   .wrapper h1 {
     text-align: left;
-    max-width: 80%;
+    width: 100%;
     margin-bottom: 5px;
   }
   .wrapper p {
     text-align: left;
-    max-width: 80%;
+    width: 100%;
     margin-bottom: 30px;
     margin-top: 10px;
   }

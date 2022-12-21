@@ -2,13 +2,17 @@
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
+  /* border: 5px solid orange; */
 }
-
+body {
+  /* border: 2px solid red; */
+}
 a {
   text-decoration: none;
 }
 
 footer {
+  /* border: 2px solid yellow; */
   padding-top: 30px;
   padding-bottom: 20px;
   padding-left: 20px;
@@ -16,7 +20,9 @@ footer {
   background-color: #dff6ff;
   display: flex;
   font-size: medium;
+  position: static;
   bottom: 0;
+  left: 0;
   margin-top: 400px;
 }
 footer img {
@@ -27,13 +33,17 @@ footer p {
   font-size: 20px;
   margin-top: 10px;
   font-weight: bold;
+  /* border: 2px solid red; */
 }
 footer ul li {
   margin-top: 5px;
   color: #06283d;
+  /* border: 1px solid blue; */
+  max-width: 60%;
 }
 footer .footer-content2 {
   display: block;
+  /* border: 1px solid red; */
 }
 
 ul {
@@ -57,19 +67,29 @@ i {
   margin: 0 auto;
   width: 100%;
   padding-top: 20px;
+  /* border: 2px solid orange; */
+  justify-content: center;
 }
 
 .footer-content2 ul {
   margin-top: 10px;
+  
 }
-
+.footer-content3 {
+  /* border: 1px solid blue; */
+  margin-right: 10px;  
+}
+.footer-content3 h2 {
+  /* border: 1px solid black; */
+  text-align: center;
+}
 .footer-content3 ul {
   display: flex;
+  /* border: 3px solid purple; */
   justify-content: center;
 }
 .footer-content3 ul li {
   width: 30px;
-  align-items: center;
   margin: 10px 20px 0 20px;
 }
 @media all and (max-width: 1000px) {
@@ -95,14 +115,11 @@ i {
   .footer-main-content h2 {
     text-align: left;
   }
-  .heading a {
-    width: 60%;
-  }
   footer {
     font-size: 10px;
     display: flex;
     flex-direction: column;
-    border: 1px solid;
+    /* border: 1px solid; */
     margin-top: 400vh;
   }
   footer p {
@@ -126,4 +143,4 @@ i {
   .footer-content3 ul li {
     margin-left: 0;
   }
-}/*# sourceMappingURL=index.css.map */
+}

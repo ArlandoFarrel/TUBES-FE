@@ -5,7 +5,6 @@
   font-family: "Poppins";
   margin: 0px;
   padding: 0px;
-  text-align: left;
 }
 
 body {
@@ -58,13 +57,13 @@ a {
 }
 .bio-main h1 {
   color: white;
-  width: 90%;
+  width: 50%;
   margin: 50px 40px 0 40px;
 }
 .bio-main p {
   color: white;
   margin-left: 40px;
-  width: 80%;
+  width: 70%;
 }
 
 .bio-photo {
@@ -102,7 +101,7 @@ a {
 .tab ul li {
   color: white;
   cursor: pointer;
-  
+  text-align: center;
 }
 
 .bio-add {
@@ -138,7 +137,6 @@ i {
 }
 
 @media all and (max-width: 1000px) {
-  
   .bio-add {
     width: 70%;
     margin: 400px auto;
@@ -151,7 +149,7 @@ i {
     flex-direction: column;
   }
   .bio-photo {
-    margin-top: 15vh;
+    margin-top: 20px;
     width: 100%;
     height: auto;
     float: left;

@@ -104,7 +104,7 @@ const Calculator = () => {
 
     return (
         <>
-        <Header />
+        
             <div className='all'>
                 <div className="calculator">
                     <div className="calculator__result">
@@ -127,7 +127,7 @@ const Calculator = () => {
 
                 </div>
                 </div>
-            <Footer />
+            
 
         </>
 

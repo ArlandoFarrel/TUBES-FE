@@ -65,7 +65,6 @@ i {
   color: white;
   font-size: large;
   margin: 20px 0;
-  text-align: center;
 }
 .box .col-4 img {
   width: 170px;
@@ -74,7 +73,6 @@ i {
   font-size: large;
   margin: 20px 0;
   color: white;
-  text-align: center;
 }
 
 .menu-toggle {
