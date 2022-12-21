@@ -142,7 +142,7 @@
 
 import { useState } from "react";
 import "../App.css";
-import "./css/detail.css";
+import "./css/detail.scss";
 function Tabs() {
   const [toggleState, setToggleState] = useState(1);
 

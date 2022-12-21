@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import './css/header.css'
+
+import './css/home.scss'
 function Header() {
     const [nav, setNav] = useState(false);
 
