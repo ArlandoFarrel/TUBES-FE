@@ -1,7 +1,4 @@
-import Header from './Header'
-import Footer from './Footer'
 
-<Header />
 export const BTN_ACTIONS = {
     ADD: 'ADD',
     THEME: 'THEME',

@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import { btns, BTN_ACTIONS } from "./btnConfig";
-import "./calculator.css";
+import "./css/calculator.scss";
 import "./css/home.scss"
 import { Link } from 'react-router-dom'
 
