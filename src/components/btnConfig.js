@@ -21,7 +21,7 @@ export const btns = [
     },
     {
         display: '%',
-        action: BTN_ACTIONS.ADD,
+        action: BTN_ACTIONS.PERCENT,
         class: 'btn__op'
     },
     {
@@ -109,4 +109,6 @@ export const btns = [
         action: BTN_ACTIONS.CALC,
         class: 'btn__op'
     }
-];
+]; 
+    
+;
